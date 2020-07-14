@@ -59,7 +59,7 @@ const PostWrap = styled.section(({ theme }) => ({
   flexDirection: 'column',
   alignItems: 'center',
   '> *': {
-    width: '100vw',
+    width: '100%',
     wordWrap: 'break-word',
     ':not(.gatsby-highlight)': {
       ...theme.centerPadding,
