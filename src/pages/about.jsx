@@ -6,11 +6,6 @@ import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import siteShape from '../shapes/site';
-// import excelSetupPng from '../images/excel-setup-diagram.png';
-
-// const ghLink = <a href="https://github.com/">my GitHub</a>
-// const cdpLink = <a href="http://cursordanceparty.com">Cursor Dance Party</a>
-// const esdLink = <a href={excelSetupPng}>full setup diagram</a>
 
 const ResumeHeader = styled.header(({ theme }) => ({
   ...theme.centerPadding,

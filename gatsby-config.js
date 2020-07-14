@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     author: 'Blog',
     title: 'Blog',
-    siteUrl: 'https://standard-draw-rbtech.netlify.app/',
+    siteUrl: 'https://vite-blog.netlify.app/',
     description: 'blog post by @enwuft',
   },
   plugins: [
@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://standard-draw-rbtech.netlify.app/',
+        siteUrl: 'https://vite-blog.netlify.app/',
       },
     },
     {
