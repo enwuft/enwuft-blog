@@ -4,7 +4,7 @@ module.exports = {
     author: 'Blog',
     title: 'Blog',
     siteUrl: 'https://vite-blog.netlify.app/',
-    description: 'blog post by @enwuft',
+    description: 'by @enwuft',
   },
   plugins: [
     'gatsby-plugin-catch-links',
