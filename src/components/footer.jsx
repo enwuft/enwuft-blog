@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import styled from '@emotion/styled'
-import { A } from './header-footer-anchor'
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import styled from '@emotion/styled';
+import { A } from './header-footer-anchor';
 
 const Footer = styled.footer(({ theme }) => ({
   color: theme.textColor,
@@ -14,11 +14,11 @@ const Footer = styled.footer(({ theme }) => ({
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-}))
+}));
 
 const P = styled.p(({ theme }) => ({
   margin: `${theme.spacingPx / 2}px 0`,
-}))
+}));
 
 const SiteFooter = () => {
   const { currentBuildDate } = useStaticQuery(graphql`
@@ -27,26 +27,22 @@ const SiteFooter = () => {
         currentDate
       }
     }
-  `)
+  `);
 
   return (
     <Footer>
-      <P>&copy; {currentBuildDate.currentDate} @enwuft Powers</P>
+      <P>&copy; {currentBuildDate.currentDate} @enwuft</P>
       <P>
         <small>
           This site is built with{' '}
           <A inline href="https://www.gatsbyjs.org/">
             GatsbyJS
           </A>
-          . You can find the{' '}
-          <A inline href="https://github.com/">
-            source code on GitHub
-          </A>
           .
         </small>
       </P>
     </Footer>
-  )
-}
+  );
+};
 
-export default SiteFooter
+export default SiteFooter;

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
-import React from 'react'
-import styled from '@emotion/styled'
-import { Link, A } from './header-footer-anchor'
+import React from 'react';
+import styled from '@emotion/styled';
+import { Link, A } from './header-footer-anchor';
 
 const Header = styled.header(({ theme }) => ({
   padding: `0 ${theme.spacing}`,
@@ -21,7 +21,7 @@ const Header = styled.header(({ theme }) => ({
   [theme.largeMedia]: {
     ...theme.centerPadding,
   },
-}))
+}));
 
 const H1 = styled.h1(({ theme }) => ({
   fontSize: '1.5rem',
@@ -29,12 +29,12 @@ const H1 = styled.h1(({ theme }) => ({
   [theme.smallMedia]: {
     fontSize: '1rem',
   },
-}))
+}));
 
 const Small = styled.small({
   fontSize: '100%',
   opacity: 0.55,
-})
+});
 
 const Nav = styled.nav(({ theme }) => ({
   display: 'flex',
@@ -44,19 +44,21 @@ const Nav = styled.nav(({ theme }) => ({
   a: {
     marginLeft: theme.spacing,
   },
-}))
+}));
 
 const SiteHeader = () => (
   <Header>
     <H1>
-      <Link to="/">มาตรฐานการเขียนเเบบไฟฟ้า</Link>{' '}
+      <Link to="/">Vite Blog</Link>{' '}
     </H1>
-    <Small>The standard draw electrical plan.</Small>
+    <Small>
+      หวังว่าผู้อ่านจะได้สิ่งเรียนรู้สิ่งใหม่ เพราะเราเรียนรู้ตลอดชีวิต.
+    </Small>
     {/* <Nav>
       <Link to="/">Blog</Link>
       <Link to="/about">About</Link>
     </Nav> */}
   </Header>
-)
+);
 
-export default SiteHeader
+export default SiteHeader;

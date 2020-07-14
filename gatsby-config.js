@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    author: 'มาตรฐานการเขียนเเบบไฟฟ้า',
-    title: 'มาตรฐานการเขียนเเบบไฟฟ้า',
+    author: 'Blog',
+    title: 'Blog',
     siteUrl: 'https://standard-draw-rbtech.netlify.app/',
-    description: 'มาตรฐานการเขียนเเบบไฟฟ้า วิทยาลัยเทคนิครัตนบุรี',
+    description: 'blog post by @enwuft',
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -106,4 +106,4 @@ module.exports = {
       },
     },
   ],
-}
+};

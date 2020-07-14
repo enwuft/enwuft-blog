@@ -1,5 +1,5 @@
 {
-  "name": "knpw.rs",
+  "name": "vite-blog",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.jsx src gatsby-config.js gatsby-node.js",
