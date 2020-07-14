@@ -9,7 +9,7 @@
     "preserve": "npm run build",
     "serve": "gatsby serve"
   },
-  "author": "Kenneth Powers <ken@kenpowers.net>",
+  "author": "enwuft",
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "^10.0.5",
