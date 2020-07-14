@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import dateformat from 'dateformat';
-import ReactDisqusComments from 'react-disqus-comments';
+// import ReactDisqusComments from 'react-disqus-comments';
 import styled from '@emotion/styled';
 import site from '../shapes/site';
 import Layout from '../components/layout';
@@ -98,34 +98,21 @@ const BlogPost = ({ data, pageContext }) => {
       <Main>
         <Helmet>
           <title>
-            {post.frontmatter.title}
-            {' '}
-            &middot;
-            {' '}
-            {title}
+            {post.frontmatter.title} &middot; {title}
           </title>
         </Helmet>
         <article>
           <Header>
-            <HeaderTitle>
-              {post.frontmatter.title}
-            </HeaderTitle>
-            <HeaderDate dateTime={dateformat(post.frontmatter.date, 'isoDateTime')}>
+            <HeaderTitle>{post.frontmatter.title}</HeaderTitle>
+            <HeaderDate
+              dateTime={dateformat(post.frontmatter.date, 'isoDateTime')}
+            >
               {dateformat(post.frontmatter.date, 'mmmm d, yyyy')}
             </HeaderDate>
             <TagsList tags={post.frontmatter.tags} />
           </Header>
           <PostWrap dangerouslySetInnerHTML={{ __html: post.html }} />
-          <Footer>
-            {isProduction && (
-              <ReactDisqusComments
-                shortname="kenpowers"
-                identifier={post.frontmatter.path}
-                title={post.frontmatter.title}
-                url={fullUrl}
-              />
-            )}
-          </Footer>
+          <Footer />
         </article>
         <PostNavWrap>
           <PostNav prev post={prev} />
