@@ -12,9 +12,7 @@ layout: post
 
 เจอช่องโหว่นี้ง่าย ผม fuzzing path เว็บขายสินค้าของค่ายโทรศัพท์ เเละพบไฟล์ sftp ในไพล์นี้มี Username & Password - Cloud user เเล้วลองเข้าถึง เเละสำเร็จ
 
-![Access to server](./access_server_success.png)
-
-เเละนี้คืนรางวัล ต้องขอบคุณอย่างมากเลยครับ
+เเละนี้คือรางวัล ต้องขอบคุณอย่างมากเลยครับ
 
 ![Attachment one](./Attachment.png)
 
