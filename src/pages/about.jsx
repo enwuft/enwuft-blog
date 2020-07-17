@@ -71,6 +71,9 @@ const About = ({
         <a href="https://dev-comrbtech.netlify.app/" target="black">
           https://dev-comrbtech.netlify.app/
         </a>
+        <li>
+          All, The most of free time to learning coding, interesting of Vue.js, JavaScript, TypeScript and Rust. This for a long time to be amateur programmer loves to code.
+        </li>
       </Ul>
       {/* <H4>Experience</H4>
       <ResumeHeader>
