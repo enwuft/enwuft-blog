@@ -49,23 +49,30 @@ const About = ({
         <title>About &middot; {site.title}</title>
       </Helmet>
       <H2>About</H2>
-      <blockquote>
+      {/* <blockquote>
         <P>
           &quot;So far as it depends on you, live peaceably with everyone.&quot;
           - The Apostle Paul, to the Romans
         </P>
-      </blockquote>
-      <H4>Software</H4>
+      </blockquote> */}
+      <H4>Development</H4>
       <Ul>
-        <li>
+        {/* <li>
           Database: PostgreSQL, MySQL, SQL Server, SQLite/SQLCipher, MongoDB,
           Redis
+        </li> */}
+        {/* <li>Server: nginx</li>
+        <li>Tools: Docker, Git</li>
+        <li>Platforms: Linux</li> */}
+        <li>
+          Electrical power site for Rattanaburi Technology and Management
+          College.
         </li>
-        <li>Server: nginx, Apache httpd</li>
-        <li>Tools: Docker, Git, Jenkins, Travis CI</li>
-        <li>Platforms: macOS, Linux / Unix, Microsoft Windows</li>
+        <a href="https://dev-comrbtech.netlify.app/" target="black">
+          https://dev-comrbtech.netlify.app/
+        </a>
       </Ul>
-      <H4>Experience</H4>
+      {/* <H4>Experience</H4>
       <ResumeHeader>
         <h5>Signal Messenger &middot; Desktop Developer &middot; Remote</h5>
         <h5>April 2019 - Present</h5>
@@ -86,7 +93,7 @@ const About = ({
           Hired as Senior Software Engineer. Promoted to Lead Software Engineer
           in March 2018.
         </li>
-      </Ul>
+      </Ul> */}
     </main>
   </Layout>
 );

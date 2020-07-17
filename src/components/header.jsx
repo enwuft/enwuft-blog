@@ -51,13 +51,11 @@ const SiteHeader = () => (
     <H1>
       <Link to="/">Vite Blog</Link>{' '}
     </H1>
-    <Small>
-      หวังว่าผู้อ่านจะได้สิ่งเรียนรู้สิ่งใหม่ เพราะเราเรียนรู้ตลอดชีวิต.
-    </Small>
-    {/* <Nav>
+    <Small>หวังว่าผู้อ่านจะได้สิ่งเรียนรู้สิ่งใหม่</Small>
+    <Nav>
       <Link to="/">Blog</Link>
       <Link to="/about">About</Link>
-    </Nav> */}
+    </Nav>
   </Header>
 );
 
