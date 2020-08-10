@@ -71,6 +71,12 @@ const About = ({
         <a href="https://dev-comrbtech.netlify.app/" target="black">
           https://dev-comrbtech.netlify.app/
         </a>
+        <li>
+          เเบ่งปันการ CAD
+        </li>
+        <a href="https://vitecad.blogspot.com/" target="black">
+          https://vitecad.blogspot.com/
+        </a>
       </Ul>
       <P>
         {' '}
