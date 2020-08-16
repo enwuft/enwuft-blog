@@ -16,3 +16,13 @@ filename.git-credentials
 "site.com" FIREBASE_API_JSON=
 shodan_api_key language:python
 ```
+
+
+X-Forwarded: 127.0.0.1
+X-Forwarded-By: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Forwarded-For-Original: 127.0.0.1
+X-Forwarder-For: 127.0.0.1
+Forwarded: 127.0.0.1
+Forwarded-For: 127.0.0.1
+Forwarded-For-Ip: 127.0.0.1
