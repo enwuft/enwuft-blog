@@ -66,23 +66,21 @@ const About = ({
         <li>Platforms: Linux</li> */}
         <li>
           Electrical power site for Rattanaburi Technology and Management
-          College.
+          College (Demo).
         </li>
         <a href="https://dev-comrbtech.netlify.app/" target="black">
           https://dev-comrbtech.netlify.app/
         </a>
-        <li>
-          เเบ่งปันการ CAD
-        </li>
+        <li>เเบ่งปันการ CAD</li>
         <a href="https://vitecad.blogspot.com/" target="black">
           https://vitecad.blogspot.com/
         </a>
       </Ul>
       <P>
         {' '}
-        All, The most of free time to learning coding, interesting of Vue.js,
-        JavaScript, TypeScript and Rust. This for a long time to be amateur
-        programmer loves to code.
+        All, The most of free time to learning coding, Electrical & hacking,
+        interesting of Rust. This for a long time to be amateur programmer loves
+        to code.
       </P>
       {/* <ResumeHeader>
         <h5>SHIFT Media &middot; Front End Lead &middot; Boston, MA</h5>
