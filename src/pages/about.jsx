@@ -64,13 +64,6 @@ const About = ({
         {/* <li>Server: nginx</li>
         <li>Tools: Docker, Git</li>
         <li>Platforms: Linux</li> */}
-        <li>
-          Electrical power site for Rattanaburi Technology and Management
-          College (Demo).
-        </li>
-        <a href="https://dev-comrbtech.netlify.app/" target="black">
-          https://dev-comrbtech.netlify.app/
-        </a>
         <li>เเบ่งปันการ CAD</li>
         <a href="https://vitecad.blogspot.com/" target="black">
           https://vitecad.blogspot.com/
