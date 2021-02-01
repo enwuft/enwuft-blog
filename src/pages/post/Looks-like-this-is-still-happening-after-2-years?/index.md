@@ -8,7 +8,7 @@ layout: post
 
 [diesel cli](http://diesel.rs)
 
-ถ้ากำลังใช้ diesel cli ตอดตั้งเเล้วมีปัญหา ลองติดตั้ง lib
+ถ้ากำลังใช้ diesel cli ติดตั้งเเล้วมีปัญหา ลองติดตั้ง lib
 ```bash
 sudo apt install libpq-dev # postgres lib
 
