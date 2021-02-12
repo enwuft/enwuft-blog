@@ -1,8 +1,8 @@
 ---
-title: ปลอดภัยไว้ก่อน(ย่านลืม)
+title: D
 date: '2021-02-12'
 path: /post/safety-frist
-tags: 
+tags: tool
 layout: post
 ---
 
@@ -15,7 +15,7 @@ While any tool to use purpose intercept HTTP. I recommended BurpSuite for this o
 
 ### Wordlists
 
-![wordlists.assetnote.io](https://wordlists.assetnote.io/)
+[wordlists.assetnote.io](https://wordlists.assetnote.io/)
 
 
 ### Browswer Extenstions
