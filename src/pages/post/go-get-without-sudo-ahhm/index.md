@@ -1,7 +1,7 @@
 ---
 title: go get without sudo?
 date: '2020-12-11'
-path: /post/go-get-without-sudo?
+path: /post/go-get-without-sudo
 tags: golang
 layout: post
 ---
