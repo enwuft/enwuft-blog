@@ -46,7 +46,7 @@ const Layout = ({ children }) => (
           height: "100vh",
           margin: 0,
           padding: 0,
-          fontFamily: "Lato",
+          fontFamily: 'Niramit',
         },
         "h1,h2,h3,h4": {
           textTransform: "uppercase",
@@ -94,6 +94,7 @@ const Layout = ({ children }) => (
             <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
             <meta name="HandheldFriendly" content="True" />
             <meta name="description" content={site.description} />
+            <link href="https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet" />
           </Helmet>
           <Header />
           {children}
